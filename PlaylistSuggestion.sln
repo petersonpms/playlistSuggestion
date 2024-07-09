@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34928.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlaylistSuggestion.API", "PlaylistSuggestion.API\PlaylistSuggestion.API.csproj", "{2ED9675D-0C15-4590-8A61-46A648EB9426}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlaylistSuggestion.Domain", "PlaylistSuggestion.Domain\PlaylistSuggestion.Domain.csproj", "{5AAC1FED-C6F2-4D37-87F6-1679DFD1FBE1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlaylistSuggestion.Service", "PlaylistSuggestion.Service\PlaylistSuggestion.Service.csproj", "{2129D97D-EE70-4BD8-8FF0-08032956FE6A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2ED9675D-0C15-4590-8A61-46A648EB9426}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2ED9675D-0C15-4590-8A61-46A648EB9426}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2ED9675D-0C15-4590-8A61-46A648EB9426}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2ED9675D-0C15-4590-8A61-46A648EB9426}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AAC1FED-C6F2-4D37-87F6-1679DFD1FBE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AAC1FED-C6F2-4D37-87F6-1679DFD1FBE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AAC1FED-C6F2-4D37-87F6-1679DFD1FBE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AAC1FED-C6F2-4D37-87F6-1679DFD1FBE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2129D97D-EE70-4BD8-8FF0-08032956FE6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2129D97D-EE70-4BD8-8FF0-08032956FE6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2129D97D-EE70-4BD8-8FF0-08032956FE6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2129D97D-EE70-4BD8-8FF0-08032956FE6A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {56449162-7545-4267-A8A9-653BD5929166}
+	EndGlobalSection
+EndGlobal
