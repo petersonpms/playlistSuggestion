@@ -2,8 +2,8 @@
 {
     public enum MusicalGenreEnum
     {
-        POP = 1,
-        ROCK = 2,
-        CLASSIC = 3
+        Pop = 1,
+        Rock = 2,
+        Classic = 3
     }
 }
