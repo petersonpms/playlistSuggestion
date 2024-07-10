@@ -1,0 +1,3 @@
+﻿steps:
+- name: 'gcr.io/cloud-builders/gcloud'
+  args: ['functions', 'deploy', ' create-site-function', 'publish-function', '--runtime', 'dotnet6', '--entry-point', 'SimpleHttpFunction.Function']

@@ -1,9 +1,19 @@
 <Project Sdk="Microsoft.NET.Sdk">
-
   <PropertyGroup>
+    <OutputType>Exe</OutputType>
     <TargetFramework>net6.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
+    <InvariantGlobalization>true</InvariantGlobalization>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Google.Cloud.Functions.Hosting" Version="2.2.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PlaylistSuggestion.Domain\PlaylistSuggestion.Domain.csproj" />
+    <ProjectReference Include="..\PlaylistSuggestion.Infra\PlaylistSuggestion.Infra.csproj" />
+    <ProjectReference Include="..\PlaylistSuggestion.Service\PlaylistSuggestion.Service.csproj" />
+  </ItemGroup>
 
 </Project>
